@@ -1,16 +1,25 @@
-# car_booking_app
+# Car Reservation App
 
-A new Flutter project.
+A Flutter app that allows users to reserve a car for particular time periods on a calendar.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This is app designed for medium sized Android phones.
 
-A few resources to get you started if this is your first Flutter project:
+Clone the repo. 
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Ensure you have an Android phone emulator (e.g. Android Studio) or a 
+Android phone with Developer mode on. Ensure that you are connected to the emulator/device.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Move to the base directory of the project `car-booking-app`.
+
+To open the app in debug mode for testing and development, run
+```
+flutter run
+```
+
+To install the app on a device, run
+```
+flutter build apk --release
+flutter install
+```
