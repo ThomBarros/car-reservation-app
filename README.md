@@ -13,6 +13,11 @@ Android phone with Developer mode on. Ensure that you are connected to the emula
 
 Move to the base directory of the project `car-booking-app`.
 
+To install dependencies, run
+```
+flutter pub get
+```
+
 To open the app in debug mode for testing and development, run
 ```
 flutter run
